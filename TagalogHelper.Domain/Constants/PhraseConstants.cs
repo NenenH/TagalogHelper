@@ -21,6 +21,8 @@ namespace TagalogHelper.Domain
         public const string HAVE_YOU_HAD_COFFEE = "HAVE YOU HAD COFFEE";
         public const string HAVE_YOU_HAD_YOUR_COFFEE = "HAVE YOU HAD YOUR COFFEE";
         public const string I_LOVE_YOU = "I LOVE YOU";
+        public const string I_MISS_YOU = "I MISS YOU";
+        public const string I_LOVE_YOU_TOO = "I LOVE YOU TOO";
         public const string BREAKFAST = "BREAKFAST";
         public const string IT_IS_TIME_FOR_BREAKFAST = "IT IS TIME FOR BREAKFAST";
         public const string BREAKFAST_TIME = "BREAKFAST TIME";

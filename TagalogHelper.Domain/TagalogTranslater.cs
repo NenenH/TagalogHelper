@@ -27,6 +27,8 @@ namespace TagalogHelper.Domain
                 PhraseConstants.HAVE_YOU_EATEN => Food.GetTranslation(EnglishText),
                 PhraseConstants.HAVE_YOU_EATEN_ALREADY => Food.GetTranslation(EnglishText),
                 PhraseConstants.I_LOVE_YOU => Romantic.GetTranslation(EnglishText),
+                PhraseConstants.I_MISS_YOU => Romantic.GetTranslation(EnglishText),
+                PhraseConstants.I_LOVE_YOU_TOO => Romantic.GetTranslation(EnglishText),
                 _ => "No Translation Found for " + EnglishText,
             };
         }

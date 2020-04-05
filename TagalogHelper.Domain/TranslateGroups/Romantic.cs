@@ -11,7 +11,9 @@ namespace TagalogHelper.Domain.TranslateGroups
             return EnglishText switch
             {
                 PhraseConstants.I_LOVE_YOU => "Mahal kita",
-                _ => "No Translation Found for " + EnglishText,
+                PhraseConstants.I_MISS_YOU => "Na - miss kita.",
+                PhraseConstants.I_LOVE_YOU_TOO => "Mahal din kita.",
+                  _ => "No Translation Found for " + EnglishText,
             };
 
         }
