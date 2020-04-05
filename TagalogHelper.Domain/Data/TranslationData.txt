@@ -1,0 +1,25 @@
+﻿1;HELLO;Kamusta
+1;HOW ARE YOU;Kamusta ka
+1;HOW ARE YOU DOING;Kamusta ka
+1;GOOD MORNING;Magandang Umaga
+2;GOOD NIGHT;Magandang Gabi
+2;SEE YOU SOON;Kita kits
+2;SEE YOU LATER;Kita kits
+2;I AM LEAVING; Lalabas nako
+2;I_AM_HEADING_OUT;Lalabas nako
+2;I WILL GO OUT;Lalabas nako
+3;COFFEE;Kape
+3;COFFEE_TIME;Oras na para magkape
+3;IT IS TIME FOR COFFEE;Oras na para magkape
+3;BREAKFAST;Agahan / Almusal
+3;IT IS TIME FOR BREAKFAST;Oras na para sa agahan / almusal
+3;BREAKFAST TIME;Oras ng agahan / almusal
+3;DID YOU HAVE BREAKFAST;Nag breakfast ka na
+3;DID YOU EAT BREAKFAST;Kumain ka ba ng agahan / almusal
+3;DID YOU DRINK YOUR COFFEE;Nakainom ka ba ng kape mo
+3;DID YOU HAVE COFFEE YET;Nakainom ka ba ng kape mo
+3;HAVE YOU HAD COFFEE;Nakainom ka ba ng kape mo
+3;HAVE YOU HAD YOUR COFFEE;Nakainom ka ba ng kape mo
+3;DID HAVE YOUR YOUR COFFEE;Nakainom ka ba ng kape mo
+3;HAVE YOU EATENALREADY;kumain ka na ba
+3;HAVE YOU EATEN;kumain ka na ba

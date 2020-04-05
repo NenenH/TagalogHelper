@@ -11,8 +11,8 @@ namespace TagalogHelper.Domain.TranslateGroups
             return EnglishText switch
             {
                 PhraseConstants.COFFEE => "Kape",
-                PhraseConstants.COFFEE_TIME => "Oras ng kape",
-                PhraseConstants.IT_IS_TIME_FOR_COFFEE => "Oras na para sa kape",
+                PhraseConstants.COFFEE_TIME => "Oras na para magkape",
+                PhraseConstants.IT_IS_TIME_FOR_COFFEE => "Oras na para magkape",
                 PhraseConstants.BREAKFAST => "Agahan / Almusal",
                 PhraseConstants.IT_IS_TIME_FOR_BREAKFAST => "Oras na para sa agahan / almusal",
                 PhraseConstants.BREAKFAST_TIME => "Oras ng agahan / almusal",

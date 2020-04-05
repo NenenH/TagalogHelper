@@ -1,14 +1,21 @@
 ﻿using System;
 using TagalogHelper.Domain;
+using TagalogHelper.Domain.Data;
 
 namespace TagalogHelper.Console
 {
     public class Program
     {
         private static bool RepeatQuestion;
+        private const int HeaderLineLength = 30;
 
         static void Main(string[] args)
         {
+
+            WriteLoadData();
+            TagalogHelperService.LoadData();
+            System.Console.Clear();
+
             RepeatQuestion = true;
             System.Console.ForegroundColor = ConsoleColor.Green;
             WriteHeader();
@@ -21,6 +28,14 @@ namespace TagalogHelper.Console
             
             System.Console.Read();
         }
+
+        static void WriteLoadData()
+        {
+            System.Console.ForegroundColor = ConsoleColor.Blue;
+            System.Console.WriteLine("");            
+            System.Console.WriteLine("Loading Data Please Wait.........");            
+        }
+
 
         static void WriteHeader()
         {
@@ -41,10 +56,9 @@ namespace TagalogHelper.Console
             System.Console.WriteLine("");
             System.Console.Write("Enter english phrase to be translated to Tagalog:  ");
             
-            string phraseToTranslate = System.Console.ReadLine();
-                      
+            string phraseToTranslate = System.Console.ReadLine();                     
 
-            System.Console.WriteLine("Translation: " + TranslateToTagalog.GetTranslation(phraseToTranslate));
+            System.Console.WriteLine("Translation: " + TagalogHelperService.GetSingleTranslation(phraseToTranslate));
             System.Console.WriteLine("");            
         }
     }

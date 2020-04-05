@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace TagalogHelper.Domain
 {
@@ -21,5 +22,6 @@ namespace TagalogHelper.Domain
             return textToClean.ToUpper().Trim();
 
         }
+
     }
 }

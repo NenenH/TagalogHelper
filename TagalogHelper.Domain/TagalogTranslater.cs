@@ -7,6 +7,8 @@ namespace TagalogHelper.Domain
     {
         public static string GetTranslation(string EnglishText)
         {
+
+            //TODO: Move to data to Sqlite
             EnglishText = Utils.CleanUpText(EnglishText);
 
             return EnglishText switch
@@ -18,6 +20,8 @@ namespace TagalogHelper.Domain
                 PhraseConstants.GOOD_NIGHT => GoodByes.GetTranslation(EnglishText),
                 PhraseConstants.SEE_YOU_LATER => GoodByes.GetTranslation(EnglishText),
                 PhraseConstants.SEE_YOU_SOON => GoodByes.GetTranslation(EnglishText),
+                PhraseConstants.I_AM_HEADING_OUT => GoodByes.GetTranslation(EnglishText),
+                PhraseConstants.I_AM_LEAVING => GoodByes.GetTranslation(EnglishText),
                 PhraseConstants.COFFEE => Food.GetTranslation(EnglishText),
                 PhraseConstants.COFFEE_TIME => Food.GetTranslation(EnglishText),
                 PhraseConstants.IT_IS_TIME_FOR_COFFEE => Food.GetTranslation(EnglishText),
@@ -31,6 +35,7 @@ namespace TagalogHelper.Domain
                 PhraseConstants.I_LOVE_YOU => Romantic.GetTranslation(EnglishText),
                 PhraseConstants.I_MISS_YOU => Romantic.GetTranslation(EnglishText),
                 PhraseConstants.I_LOVE_YOU_TOO => Romantic.GetTranslation(EnglishText),
+                PhraseConstants.YES_MY_LOVE => Romantic.GetTranslation(EnglishText),
                 _ => "No Translation Found for " + EnglishText,
             };
         }
