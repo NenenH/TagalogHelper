@@ -11,7 +11,7 @@ namespace TagalogHelper.Domain
             textToClean = textToClean.Replace("?", "");
             textToClean = textToClean.Replace("!", "");
 
-            return textToClean.ToUpper();
+            return textToClean.ToUpper().Trim();
 
         }
     }

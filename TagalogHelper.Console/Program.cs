@@ -5,19 +5,20 @@ namespace TagalogHelper.Console
 {
     public class Program
     {
+        private static bool RepeatQuestion;
+
         static void Main(string[] args)
         {
+            RepeatQuestion = true;
             System.Console.ForegroundColor = ConsoleColor.Green;
             WriteHeader();
-            do
-            {
-                while (!System.Console.KeyAvailable)
+            
+                while (RepeatQuestion)
                 {
                     GetPhraseToTranslate();
                 }
-            } while (System.Console.ReadKey(true).Key != ConsoleKey.Escape);
             
-
+            
             System.Console.Read();
         }
 
@@ -31,7 +32,7 @@ namespace TagalogHelper.Console
             System.Console.WriteLine("Version 1.0");
             System.Console.WriteLine(str.PadRight(30, '#'));
             System.Console.WriteLine("");
-            System.Console.WriteLine("Press ESC to exit");
+            System.Console.WriteLine("Close Window to Exit");
 
         }
 

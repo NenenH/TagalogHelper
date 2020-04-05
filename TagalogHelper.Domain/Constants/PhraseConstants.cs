@@ -8,5 +8,6 @@ namespace TagalogHelper.Domain
     {
         public const string HELLO = "HELLO";
         public const string HOW_ARE_YOU = "HOW ARE YOU";
+        public const string HOW_ARE_YOU_DOING = "HOW ARE YOU DOING";
     }
 }

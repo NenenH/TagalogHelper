@@ -12,6 +12,7 @@ namespace TagalogHelper.Domain
             {
                 PhraseConstants.HELLO => FormalGreetings.GetTranslation(EnglishText),
                 PhraseConstants.HOW_ARE_YOU => FormalGreetings.GetTranslation(EnglishText),
+                PhraseConstants.HOW_ARE_YOU_DOING => FormalGreetings.GetTranslation(EnglishText),
                 _ => "No Translation Found for " + EnglishText,
             };
         }
