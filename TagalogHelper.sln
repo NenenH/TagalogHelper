@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagalogHelper.Domain", "TagalogHelper.Domain\TagalogHelper.Domain.csproj", "{F4B0B30B-68D1-4B35-8CAC-FEA20E2176DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagalogHelper.Console", "TagalogHelper.Console\TagalogHelper.Console.csproj", "{E3E9DD7E-A73B-49CD-8EBB-36FF2946417F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4B0B30B-68D1-4B35-8CAC-FEA20E2176DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B0B30B-68D1-4B35-8CAC-FEA20E2176DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B0B30B-68D1-4B35-8CAC-FEA20E2176DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B0B30B-68D1-4B35-8CAC-FEA20E2176DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E9DD7E-A73B-49CD-8EBB-36FF2946417F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E9DD7E-A73B-49CD-8EBB-36FF2946417F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E9DD7E-A73B-49CD-8EBB-36FF2946417F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E9DD7E-A73B-49CD-8EBB-36FF2946417F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D71E248-1002-4570-8043-66227B4D87BD}
+	EndGlobalSection
+EndGlobal
