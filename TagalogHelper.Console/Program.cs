@@ -42,17 +42,7 @@ namespace TagalogHelper.Console
             System.Console.Write("Enter english phrase to be translated to Tagalog:  ");
             
             string phraseToTranslate = System.Console.ReadLine();
-            do
-            {                
-                if (phraseToTranslate == String.Empty)
-                {
-                    System.Console.WriteLine("");
-                    System.Console.Write("Please enter text:");
-                    System.Console.WriteLine("");
-                }
-
-            }
-            while (phraseToTranslate == String.Empty);
+                      
 
             System.Console.WriteLine("Translation: " + TranslateToTagalog.GetTranslation(phraseToTranslate));
             System.Console.WriteLine("");            

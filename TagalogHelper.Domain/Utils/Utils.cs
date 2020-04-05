@@ -8,9 +8,16 @@ namespace TagalogHelper.Domain
     {
         public static string CleanUpText(string textToClean)
         {
-            textToClean = textToClean.Replace("?", "");
-            textToClean = textToClean.Replace("!", "");
-
+            if(String.IsNullOrEmpty(textToClean))
+            {
+                textToClean = "[No Input]";
+            }
+            else
+            {
+                textToClean = textToClean.Replace("?", "");
+                textToClean = textToClean.Replace("!", "");
+            }
+            
             return textToClean.ToUpper().Trim();
 
         }

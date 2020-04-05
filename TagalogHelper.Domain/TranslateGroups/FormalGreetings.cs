@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TagalogHelper.Domain
+namespace TagalogHelper.Domain.TranslateGroups
 {
     public static class FormalGreetings
     {
@@ -13,7 +13,8 @@ namespace TagalogHelper.Domain
                 PhraseConstants.HELLO => "Kamusta",
                 PhraseConstants.HOW_ARE_YOU => "Kamusta ka",
                 PhraseConstants.HOW_ARE_YOU_DOING => "Kamusta ka",
-                _ => "",
+                PhraseConstants.GOOD_MORNING => "Magandang Umaga",
+                _ => "No Translation Found for " + EnglishText,
             };
 
 
