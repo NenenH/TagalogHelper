@@ -28,6 +28,8 @@ namespace TagalogHelper.Domain
         public const string BREAKFAST_TIME = "BREAKFAST TIME";
         public const string HAVE_YOU_EATEN = "HAVE YOU EATEN";
         public const string HAVE_YOU_EATEN_ALREADY = "HAVE YOU EATEN ALREADY";
+        public const string SEE_YOU_SOON = "SEE YOU SOON";
+        public const string SEE_YOU_LATER = "SEE YOU LATER";
         
 
     }

@@ -16,6 +16,8 @@ namespace TagalogHelper.Domain
                 PhraseConstants.HOW_ARE_YOU_DOING => FormalGreetings.GetTranslation(EnglishText),
                 PhraseConstants.GOOD_MORNING => FormalGreetings.GetTranslation(EnglishText),
                 PhraseConstants.GOOD_NIGHT => GoodByes.GetTranslation(EnglishText),
+                PhraseConstants.SEE_YOU_LATER => GoodByes.GetTranslation(EnglishText),
+                PhraseConstants.SEE_YOU_SOON => GoodByes.GetTranslation(EnglishText),
                 PhraseConstants.COFFEE => Food.GetTranslation(EnglishText),
                 PhraseConstants.COFFEE_TIME => Food.GetTranslation(EnglishText),
                 PhraseConstants.IT_IS_TIME_FOR_COFFEE => Food.GetTranslation(EnglishText),

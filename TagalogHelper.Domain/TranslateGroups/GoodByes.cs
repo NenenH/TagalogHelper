@@ -10,7 +10,9 @@ namespace TagalogHelper.Domain.TranslateGroups
         {
             return EnglishText switch
             {
-                PhraseConstants.GOOD_NIGHT => "Magandang Gabi",                
+                PhraseConstants.GOOD_NIGHT => "Magandang Gabi",  
+                PhraseConstants.SEE_YOU_SOON => "Kita kits",
+                PhraseConstants.SEE_YOU_LATER => "Kita kits",
                 _ => "No Translation Found for " + EnglishText
             };
 
