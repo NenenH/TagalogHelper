@@ -13,20 +13,28 @@ namespace TagalogHelper.Console
         {
 
             WriteLoadData();
-            TagalogHelperService.LoadData();
-            System.Console.Clear();
+            if(!TagalogHelperService.LoadData())
+            {
+                System.Console.ReadLine();
+            }
+            else
+            {
+                System.Console.Clear();
 
-            RepeatQuestion = true;
-            System.Console.ForegroundColor = ConsoleColor.Green;
-            WriteHeader();
-            
+                RepeatQuestion = true;
+                System.Console.ForegroundColor = ConsoleColor.Green;
+                WriteHeader();
+
                 while (RepeatQuestion)
                 {
                     GetPhraseToTranslate();
                 }
-            
-            
-            System.Console.Read();
+
+
+                System.Console.Read();
+            }
+
+           
         }
 
         static void WriteLoadData()

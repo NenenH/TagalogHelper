@@ -1,25 +1,90 @@
-﻿1;HELLO;Kamusta
+﻿0;DO YOU HAVE;Meron ka bang
+0;DO THEY HAVE;Meron ba sila
+0;DOES SHE HAVE;Meron ba siya
+0;DOES HE HAVE;Meron ba siya
+0;DO WE HAVE;Mayroon ba tayo
+0;DO YOU WANT;Gusto mo
+0;I WANT;Gusto ko
+0;THEY WANT;Gusto nila
+0;SHE WANTS;Gusto niya
+0;HE WANTS;Gusto niya
+0;WE WANT;Gusto namin
+0;YOU WANT;Gusto mo
+0;I NEED;kailangan ko
+0;THEY NEED;Kailangan nila
+0;SHE NEEDS;Kailangan niya
+0;HE NEEDS;Kailangan niya
+0;WE NEED;Kailangan namin
+0;YOU NEED;Kailangan mo
+1;HELLO;Kamusta
 1;HOW ARE YOU;Kamusta ka
 1;HOW ARE YOU DOING;Kamusta ka
+1;WELCOME;Mabuhay
 1;GOOD MORNING;Magandang Umaga
+1;GOOD AFTERNOON;Magandang Gabi
+1;GOOD EVENING;Magandang Gabi
 2;GOOD NIGHT;Magandang Gabi
 2;SEE YOU SOON;Kita kits
 2;SEE YOU LATER;Kita kits
-2;I AM LEAVING; Lalabas nako
-2;I_AM_HEADING_OUT;Lalabas nako
+2;SEE YOU;Kita kits
+2;I AM LEAVING;Lalabas nako
+2;I AM HEADING OUT;Lalabas nako
 2;I WILL GO OUT;Lalabas nako
+2;I AM GOING TO SLEEP;Matutulog na po ako
+2;I AM HEADING TO SLEEP;Matutulog na po ako
+2;I AM HEADING TO BED;Matutulog na po ako
+2;TIME TO SLEEP;Matutulog na po ako
+2;IT'S TIME TO SLEEP;Matutulog na po ako
+2;GOODBYE;Paalam 
+2;HAVE A NICE DAY;Magandang araw sa'yo
 3;COFFEE;Kape
-3;COFFEE_TIME;Oras na para magkape
+3;COFFEE TIME;Oras na para magkape
 3;IT IS TIME FOR COFFEE;Oras na para magkape
 3;BREAKFAST;Agahan / Almusal
-3;IT IS TIME FOR BREAKFAST;Oras na para sa agahan / almusal
+3;IT IS TIME FOR BREAKFAST;Oras na para almusal
 3;BREAKFAST TIME;Oras ng agahan / almusal
-3;DID YOU HAVE BREAKFAST;Nag breakfast ka na
-3;DID YOU EAT BREAKFAST;Kumain ka ba ng agahan / almusal
+3;DID YOU HAVE BREAKFAST;Naging almusal ka ba?
+3;DID YOU EAT BREAKFAST; Naging agahan ka ba?
+3;DID YOU EAT BREAKFAST YET; Naging agahan ka ba?
+3;DID YOU HAVE BREAKFAST; Naging agahan ka ba?
 3;DID YOU DRINK YOUR COFFEE;Nakainom ka ba ng kape mo
+3;DID YOU DRINK YOUR COFFEE YET;Nakainom ka ba ng kape mo
 3;DID YOU HAVE COFFEE YET;Nakainom ka ba ng kape mo
+3;DID YOU HAVE YOUR COFFEE YET;Nakainom ka ba ng kape mo
+3;DID YOU HAVE YOUR COFFEE;Nakainom ka ba ng kape mo
+3;DID YOU HAVE COFFEE;Nakainom ka ba ng kape mo
 3;HAVE YOU HAD COFFEE;Nakainom ka ba ng kape mo
 3;HAVE YOU HAD YOUR COFFEE;Nakainom ka ba ng kape mo
-3;DID HAVE YOUR YOUR COFFEE;Nakainom ka ba ng kape mo
-3;HAVE YOU EATENALREADY;kumain ka na ba
-3;HAVE YOU EATEN;kumain ka na ba
+3;HAVE YOU EATEN ALREADY;Kumain ka na ba
+3;HAVE YOU EATEN;Kumain Ka na ba
+3;HAVE A NICE BREAKFAST;Ay isang napakagarang almusal
+3;HAVE A NICE LUNCH;Magandang tanghalian
+3;HAVE A GREAT LUNCH;Magandang tanghalian
+3;LUNCH;Tanghalian
+3;BREAD;Tinapay
+3;DO YOU HAVE GROCERIES;May groceries ka ba?
+3;DO YOU NEED GROCERIES;kailangan mong groceries?
+3;DO YOU STILL HAVE GROCERIES;kailangan mong groceries?
+4;I LOVE YOU;Mahal kita
+4;I LOVE YOU TOO;Mahal din kita
+4;YES MY LOVE;Oo Mahal ko
+4;MY LOVE;Mahal ko
+5;ARE YOU BUSY;Marami ka bang ginagawa?
+5;DID YOU SLEEP WELL;Nakatulog ka ba ng mabuti?
+5;DO YOU STILL HAVE RICE;May bigas ka pa ba? 
+5;DO YOU STILL HAVE LOAD;May load ka pa ba? 
+5;DO YOU HAVE RICE;May bigas ka ba?
+5;DO YOU HAVE LOAD;May load ka ba?
+99;NO;Hindi
+99;YES;Oo
+99;THAT IS AWESOME;Iyon ay kahanga-hangang!
+99;IT IS TIME FOR GAMING;Oras na para gaming!
+99;I WILL BE BACK;babalik ako
+99;SOUNDS GOOD;Maganda ang tunog
+99;I WILL WATCH TELEVISION;Manonood ako ng telebisyon
+99;I WILL WATCH TELEVISION BEFORE SLEEPING;Manonood ako ng telebisyon bago matulog
+99;TIME FOR SLEEP;oras para sa pagtulog
+99;TIME FOR BED;oras para sa kama
+99;I AM FEELING SICK;sama ng pakiramdam ko
+99;I AM NOT FEELING WELL;sama ng pakiramdam ko
+99;I AM SICK;sama ng pakiramdam ko
