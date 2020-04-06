@@ -8,6 +8,8 @@
         Food = 3,
         Romantic = 4,
         GeneralQuestions = 5,
+        Financial=6,
+        Numbers=7,
         Other=99
     }
 

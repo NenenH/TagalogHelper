@@ -62,7 +62,7 @@ namespace TagalogHelper.Console
         static void GetPhraseToTranslate()
         {
             System.Console.WriteLine("");
-            System.Console.Write("Enter english phrase to be translated to Tagalog:  ");
+            System.Console.Write("Enter english or tagalog word or phrase to be translated:  ");
             
             string phraseToTranslate = System.Console.ReadLine();                     
 

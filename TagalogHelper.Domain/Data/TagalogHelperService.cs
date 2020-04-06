@@ -32,8 +32,8 @@ namespace TagalogHelper.Domain.Data
                 {
                     data = new TranslationTable
                     {
-                        EnglishText = columnData[1],
-                        TagalogText = columnData[2]
+                        EnglishText = columnData[1].ToUpper(),                        
+                        TagalogText = Utils.CleanUpText(columnData[2].ToUpper())
                     };
 
                     switch (columnData[0])
@@ -52,6 +52,15 @@ namespace TagalogHelper.Domain.Data
                             break;
                         case "4":
                             data.TranslationGroupTypeId = TranslationTypes.Romantic;
+                            break;
+                        case "5":
+                            data.TranslationGroupTypeId = TranslationTypes.GeneralQuestions;
+                            break;
+                        case "6":
+                            data.TranslationGroupTypeId = TranslationTypes.Financial;
+                            break;
+                        case "7":
+                            data.TranslationGroupTypeId = TranslationTypes.Numbers;
                             break;
                         case "99":
                             data.TranslationGroupTypeId = TranslationTypes.Other;
@@ -76,20 +85,30 @@ namespace TagalogHelper.Domain.Data
 
                
 
-        public static string GetSingleTranslation(string EnglishText)
+        public static string GetSingleTranslation(string EnglishTagalogText)
         {
-            EnglishText = Utils.CleanUpText(EnglishText);
+            EnglishTagalogText = Utils.CleanUpText(EnglishTagalogText);
 
             using var context = new TagalogHelperContext();
 
-            var data = context.Translations.Where(x => x.EnglishText==EnglishText).ToList();
+            var englishData = context.Translations.Where(x => x.EnglishText==EnglishTagalogText).ToList();
 
-            foreach (var translation in data)
+            foreach (var translation in englishData)
             {
-                if(translation.EnglishText==EnglishText)
+                if(translation.EnglishText==EnglishTagalogText)
                 {
-                    return translation.TagalogText;
+                    return translation.TagalogText + "               [English to Tagalog Detected]";
                 }                               
+            }
+
+            var tagalogData = context.Translations.Where(x => x.TagalogText == EnglishTagalogText).ToList();
+
+            foreach (var translation in tagalogData)
+            {
+                if (translation.TagalogText == EnglishTagalogText)
+                {
+                    return translation.EnglishText + "               [Tagalog to English Detected]";
+                }
             }
 
             return "No translation found.";

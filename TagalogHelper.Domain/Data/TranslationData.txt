@@ -1,9 +1,14 @@
-﻿0;DO YOU HAVE;Meron ka bang
+﻿0;I;Ako
+0;Me;Ako
+0;You;Ikaw;
+0;I LIKE THIS;Gusto ko ‘to
+0;DO YOU HAVE;Meron ka bang
 0;DO THEY HAVE;Meron ba sila
 0;DOES SHE HAVE;Meron ba siya
 0;DOES HE HAVE;Meron ba siya
 0;DO WE HAVE;Mayroon ba tayo
 0;DO YOU WANT;Gusto mo
+0;I DO WANT;Ayaw ko
 0;I WANT;Gusto ko
 0;THEY WANT;Gusto nila
 0;SHE WANTS;Gusto niya
@@ -16,14 +21,16 @@
 0;HE NEEDS;Kailangan niya
 0;WE NEED;Kailangan namin
 0;YOU NEED;Kailangan mo
+0;ARE YOU;ikaw ba
 1;HELLO;Kamusta
 1;HOW ARE YOU;Kamusta ka
 1;HOW ARE YOU DOING;Kamusta ka
 1;WELCOME;Mabuhay
 1;GOOD MORNING;Magandang Umaga
-1;GOOD AFTERNOON;Magandang Gabi
+1;GOOD AFTERNOON;Magandang Hapon
 1;GOOD EVENING;Magandang Gabi
 2;GOOD NIGHT;Magandang Gabi
+3;GOOD NOON;Magandang tanghali
 2;SEE YOU SOON;Kita kits
 2;SEE YOU LATER;Kita kits
 2;SEE YOU;Kita kits
@@ -35,8 +42,13 @@
 2;I AM HEADING TO BED;Matutulog na po ako
 2;TIME TO SLEEP;Matutulog na po ako
 2;IT'S TIME TO SLEEP;Matutulog na po ako
-2;GOODBYE;Paalam 
+2;GOODBYE;Paalam / Ba-bay
+2;GOOD-BYE;Paalam / Ba-bay
 2;HAVE A NICE DAY;Magandang araw sa'yo
+2;TAKE CARE;Ingat ka
+2;I AM HEADING OUT;Aalis na ako
+2;I AM LEAVING;Aalis na ako
+2;FAREWELL;Paalam
 3;COFFEE;Kape
 3;COFFEE TIME;Oras na para magkape
 3;IT IS TIME FOR COFFEE;Oras na para magkape
@@ -62,6 +74,8 @@
 3;HAVE A GREAT LUNCH;Magandang tanghalian
 3;LUNCH;Tanghalian
 3;BREAD;Tinapay
+3;THIS FOOD IS SO GOOD;Sarap nito
+3;ENJOY YOUR MEAL;kumain ka nang maigi
 3;DO YOU HAVE GROCERIES;May groceries ka ba?
 3;DO YOU NEED GROCERIES;kailangan mong groceries?
 3;DO YOU STILL HAVE GROCERIES;kailangan mong groceries?
@@ -69,12 +83,36 @@
 4;I LOVE YOU TOO;Mahal din kita
 4;YES MY LOVE;Oo Mahal ko
 4;MY LOVE;Mahal ko
+4;I MISS YOU;Miss na miss kita
+4;MISS YOU;Miss na miss kita
 5;ARE YOU BUSY;Marami ka bang ginagawa?
 5;DID YOU SLEEP WELL;Nakatulog ka ba ng mabuti?
 5;DO YOU STILL HAVE RICE;May bigas ka pa ba? 
 5;DO YOU STILL HAVE LOAD;May load ka pa ba? 
 5;DO YOU HAVE RICE;May bigas ka ba?
 5;DO YOU HAVE LOAD;May load ka ba?
+5;ARE YOU AWAKE;gising ka ba?
+5;ARE YOU STILL AWAKE;gising ka pa ba?
+7;ONE;isa
+7;1;isa
+7;TWO;dalawa
+7;2;dalawa
+7;THREE;tatlo
+7;3;tatlo
+7;FOUR;apat
+7;4;apat
+7;FIVE;lima
+7;5;lima
+7;SIX;anim
+7;6;anim
+7;SEVEN;pito
+7;7;pito
+7;EIGHT;walo
+7;8;walo
+7;NINE;siyam
+7;9;siyam
+7;TEN;sampu
+7;10;sampu
 99;NO;Hindi
 99;YES;Oo
 99;THAT IS AWESOME;Iyon ay kahanga-hangang!
@@ -88,3 +126,14 @@
 99;I AM FEELING SICK;sama ng pakiramdam ko
 99;I AM NOT FEELING WELL;sama ng pakiramdam ko
 99;I AM SICK;sama ng pakiramdam ko
+99;BEAUTIFUL DAY; Magandang araw
+99;THIS FEELS GOOD; Sarap nito
+99;Happy Birthday;Happy Wishes
+99;Brb;Sandali lang
+99;Be right back;Sandali lang
+99;Just a moment;Sandali lang
+99;Just a minute;Sandali lang
+99;Sorry, bear with me;Pasensya ka na
+99;Sorry bear with me;Pasensya ka na
+99;Delicious;Sarap
+99;Thank you;Salamat
